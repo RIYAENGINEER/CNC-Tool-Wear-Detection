@@ -1,0 +1,77 @@
+########## Random Classifier ##########
+              precision    recall  f1-score   support
+
+      Unworn     0.9935    0.9909    0.9922      2320
+        Worn     0.9923    0.9945    0.9934      2738
+
+    accuracy                         0.9929      5058
+   macro avg     0.9929    0.9927    0.9928      5058
+weighted avg     0.9929    0.9929    0.9929      5058
+
+############################
+########## Random Classifier ##########
+              precision    recall  f1-score   support
+
+      Unworn     0.9948    0.9914    0.9931      2337
+        Worn     0.9927    0.9956    0.9941      2721
+
+    accuracy                         0.9937      5058
+   macro avg     0.9938    0.9935    0.9936      5058
+weighted avg     0.9937    0.9937    0.9937      5058
+
+############################
+########## GradientBoostingClassifier ##########
+              precision    recall  f1-score   support
+
+      Unworn     0.9916    0.9568    0.9739      2337
+        Worn     0.9640    0.9930    0.9783      2721
+
+    accuracy                         0.9763      5058
+   macro avg     0.9778    0.9749    0.9761      5058
+weighted avg     0.9767    0.9763    0.9762      5058
+
+############################
+########## AdaBoostClassifier ##########
+              precision    recall  f1-score   support
+
+      Unworn     0.9950    0.7689    0.8675      2337
+        Worn     0.8339    0.9967    0.9081      2721
+
+    accuracy                         0.8915      5058
+   macro avg     0.9145    0.8828    0.8878      5058
+weighted avg     0.9084    0.8915    0.8893      5058
+
+############################
+########## SVC ##########
+              precision    recall  f1-score   support
+
+      Unworn     0.5674    0.3637    0.4433      2337
+        Worn     0.5823    0.7619    0.6601      2721
+
+    accuracy                         0.5779      5058
+   macro avg     0.5749    0.5628    0.5517      5058
+weighted avg     0.5754    0.5779    0.5599      5058
+
+############################
+########## DecisionTreeClassifier ##########
+              precision    recall  f1-score   support
+
+      Unworn     0.9842    0.9867    0.9855      2337
+        Worn     0.9886    0.9864    0.9875      2721
+
+    accuracy                         0.9866      5058
+   macro avg     0.9864    0.9866    0.9865      5058
+weighted avg     0.9866    0.9866    0.9866      5058
+
+############################
+########## XGBClassifier ##########
+              precision    recall  f1-score   support
+
+      Unworn     0.9944    0.9940    0.9942      2337
+        Worn     0.9949    0.9952    0.9950      2721
+
+    accuracy                         0.9947      5058
+   macro avg     0.9946    0.9946    0.9946      5058
+weighted avg     0.9947    0.9947    0.9947      5058
+
+############################
